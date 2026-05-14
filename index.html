@@ -8,7 +8,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>LiMATO Seeds</title>
+<title>LiMATO Seeds | Pi Ecosystem Marketplace</title>
 
 <style>
 
@@ -16,23 +16,27 @@ body{
 
 margin:0;
 
+padding:0;
+
 font-family:Arial,sans-serif;
 
-background:#f4f0e8;
+background:#12061c;
 
-color:#234b2c;
+color:white;
+
+overflow-x:hidden;
 
 }
 
 header{
 
-background:#2f6d3c;
+background:linear-gradient(90deg,#3d1366,#6d28d9);
 
-color:white;
-
-padding:20px;
+padding:25px;
 
 text-align:center;
+
+box-shadow:0 0 20px rgba(0,0,0,0.4);
 
 }
 
@@ -42,39 +46,67 @@ margin:0;
 
 font-size:42px;
 
+letter-spacing:2px;
+
+color:#f3d27a;
+
+}
+
+header p{
+
+margin-top:10px;
+
+font-size:18px;
+
+color:#ddd;
+
 }
 
 .hero{
 
-padding:40px 20px;
+padding:60px 20px;
 
 text-align:center;
+
+background:
+
+linear-gradient(rgba(18,6,28,0.85),rgba(18,6,28,0.9)),
+
+url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop');
+
+background-size:cover;
+
+background-position:center;
 
 }
 
 .hero h2{
 
-font-size:36px;
+font-size:48px;
 
-margin-bottom:10px;
+margin-bottom:20px;
+
+color:#f3d27a;
 
 }
 
 .hero p{
 
-font-size:20px;
+font-size:22px;
 
-max-width:700px;
+max-width:850px;
 
 margin:auto;
 
-line-height:1.6;
+line-height:1.7;
+
+color:#f0f0f0;
 
 }
 
 .buttons{
 
-margin-top:30px;
+margin-top:40px;
 
 }
 
@@ -82,13 +114,13 @@ margin-top:30px;
 
 display:inline-block;
 
-padding:15px 30px;
+padding:16px 34px;
 
 margin:10px;
 
-border-radius:12px;
+border-radius:14px;
 
-background:#2f6d3c;
+background:#6d28d9;
 
 color:white;
 
@@ -98,31 +130,107 @@ font-size:20px;
 
 font-weight:bold;
 
+transition:0.3s;
+
+}
+
+.btn:hover{
+
+background:#8b5cf6;
+
+transform:scale(1.05);
+
 }
 
 .section{
 
-background:white;
+margin:30px;
 
-margin:20px;
+padding:35px;
 
-padding:30px;
+background:#1f0b2e;
 
-border-radius:20px;
+border-radius:24px;
 
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+box-shadow:0 0 20px rgba(0,0,0,0.3);
 
 }
 
-footer{
+.section h2{
+
+color:#f3d27a;
+
+font-size:34px;
+
+margin-bottom:20px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:20px;
+
+}
+
+.card{
+
+background:#2a123f;
+
+padding:20px;
+
+border-radius:18px;
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+background:#341751;
+
+}
+
+.card h3{
+
+color:#f3d27a;
+
+margin-top:0;
+
+}
+
+.footer{
+
+padding:40px;
 
 text-align:center;
 
-padding:30px;
+color:#aaa;
 
-font-size:18px;
+font-size:16px;
 
-color:#666;
+}
+
+.tag{
+
+display:inline-block;
+
+background:#f3d27a;
+
+color:#12061c;
+
+padding:8px 14px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+margin-top:15px;
 
 }
 
@@ -136,31 +244,41 @@ color:#666;
 
 <h1>LiMATO Seeds</h1>
 
-<p>Certified seeds on demand</p>
+<p>Premium botanical marketplace powered by Pi Network</p>
 
 </header>
 
 <section class="hero">
 
-<h2>Premium plant-based foods on demand</h2>
+<h2>Certified Seeds • Premium Plants • Pay with Pi</h2>
 
 <p>
 
-Custom seed sourcing for forestry,
+Welcome to the next generation botanical marketplace.
 
-ornamental and specialty plants.
+LiMATO connects growers, collectors and enthusiasts
 
-Submit a request, receive a tailored offer,
+with premium quality seeds and plant-based products.
 
-confirm delivery and pay in Pi.
+Built for the Pi ecosystem with secure payments,
+
+transparent sourcing and global delivery.
 
 </p>
 
 <div class="buttons">
 
-<a class="btn" href="#">Oddaj zahtevo</a>
+<a class="btn" href="#">Explore Seeds</a>
 
 <a class="btn" href="#">Pay with Pi</a>
+
+<a class="btn" href="#">Forever Young</a>
+
+</div>
+
+<div class="tag">
+
+limato.pi
 
 </div>
 
@@ -168,47 +286,145 @@ confirm delivery and pay in Pi.
 
 <section class="section">
 
-<h2>Kako deluje</h2>
+<h2>Marketplace Categories</h2>
 
-<ol>
+<div class="grid">
 
-<li>Pošlješ zahtevo za semena</li>
+<div class="card">
 
-<li>Preverimo dobavljivost</li>
+<h3>🌳 Deciduous Trees</h3>
 
-<li>Pošljemo ponudbo</li>
+<p>
 
-<li>Plačilo v Pi</li>
+Oak • Maple • Beech • Ginkgo • Walnut • Chestnut
 
-<li>Dostava v EU</li>
+</p>
 
-</ol>
+</div>
+
+<div class="card">
+
+<h3>🌲 Conifers</h3>
+
+<p>
+
+Pine • Spruce • Fir • Cedar • Sequoia • Larch
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌿 Shrubs</h3>
+
+<p>
+
+Lavender • Elderberry • Rose • Hazelnut • Viburnum
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🍎 Fruit Seeds</h3>
+
+<p>
+
+Apple • Pear • Citrus • Pomegranate • Fig
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🥕 Vegetables</h3>
+
+<p>
+
+Tomato • Carrot • Onion • Pumpkin • Brassica
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌾 Grains</h3>
+
+<p>
+
+Wheat • Barley • Rye • Corn • Oats
+
+</p>
+
+</div>
+
+</div>
 
 </section>
 
 <section class="section">
 
-<h2>Zakaj LiMATO Seeds</h2>
+<h2>LiMATO Secure Trade™</h2>
+
+<p>
+
+Every transaction is protected through a transparent
+
+delivery confirmation system.
+
+Funds remain secured until shipment delivery is confirmed
+
+or delivery deadlines expire automatically.
+
+</p>
 
 <ul>
 
-<li>Brez zastarele zaloge</li>
+<li>✔ Escrow-style protection</li>
 
-<li>Individualna obravnava naročil</li>
+<li>✔ Delivery tracking integration</li>
 
-<li>Certificirane dobave</li>
+<li>✔ Transparent dispute resolution</li>
 
-<li>Pi ecosystem ready</li>
+<li>✔ Secure Pi payments</li>
+
+<li>✔ EU-oriented compliance structure</li>
 
 </ul>
 
 </section>
 
-<footer>
+<section class="section">
 
-Official Pi domain reserved: limato.pi
+<h2>Forever Young™</h2>
 
-</footer>
+<p>
+
+Premium botanical wellness collection inspired by nature,
+
+purity and longevity aesthetics.
+
+Luxury botanical identity for the Pi ecosystem.
+
+</p>
+
+<div class="tag">
+
+Luxury Botanical Line
+
+</div>
+
+</section>
+
+<div class="footer">
+
+LiMATO Seeds © 2026 • Powered by Pi Network
+
+</div>
 
 </body>
 
