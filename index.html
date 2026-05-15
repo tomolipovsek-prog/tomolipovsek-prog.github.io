@@ -668,6 +668,13 @@ Designed for minimal complications and maximum transparency.
 <p>
 
 <label>Product Price (€)</label><br><br>
+<label>Current Pi Value (€)</label><br><br>
+
+<input type="number" id="piValueInput" placeholder="Enter Pi value"
+
+style="width:100%;padding:12px;border-radius:12px;border:none;
+
+font-size:18px;margin-bottom:20px;">
 
 <input type="number" id="euroInput" placeholder="Enter € price"
 
@@ -699,7 +706,7 @@ function convertToPi() {
 
 let euro = document.getElementById("euroInput").value;
 
-let piValue = 0.147;
+let piValue = document.getElementById("piValueInput").value;
 
 let result = euro / piValue;
 
